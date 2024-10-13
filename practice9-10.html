@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function whatkeyDown(e){
+            if(e.key=="Enter"){
+                let exp=document.getElementById("exp");
+                eval(exp.value);
+                let res=document.getElementById("exp");
+                res.value=eval(exp.value);
+            }
+        }
+
+        function keyisback(){
+    let exp = document.getElementById("exp");
+    exp.value = exp.value.substring(0, exp.value.length - 1); // 마지막 문자를 제외한 문자열 반환
+}
+
+        function calculate(){
+            let exp=document.getElementById("exp");
+            try {
+                exp.value = eval(exp.value); 
+            } catch (error) {
+                exp.value = "Error"; 
+            }
+        }
+
+
+    </script>
+
+    <style>
+        button{
+            width: 50px;
+        }
+        #exp{
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <h3>계산기만들기</h3>
+    <hr>
+    
+    <input type="text" id="exp" value="0" onkeydown="whatkeyDown(event)"><br>
+    <button onclick="keyisback()">BACK</button>
+    <button onclick="document.getElementById('exp').value=''">CE</button>
+    <button onclick="document.getElementById('exp').value=''">C</button>
+    <button onclick="calculate()">=</button>
+    <br>
+    <button onclick="document.getElementById('exp').value+='7'">7</button>
+    <button onclick="document.getElementById('exp').value+='8'">8</button>
+    <button onclick="document.getElementById('exp').value+='9'">9</button>
+    <button onclick="document.getElementById('exp').value+='/'">/</button>
+    <br>
+    <button onclick="document.getElementById('exp').value+='4'">4</button>
+    <button onclick="document.getElementById('exp').value+='5'">5</button>
+    <button onclick="document.getElementById('exp').value+='6'">6</button>
+    <button onclick="document.getElementById('exp').value+='*'">*</button>
+    <br>
+    <button onclick="document.getElementById('exp').value+='1'">1</button>
+    <button onclick="document.getElementById('exp').value+='2'">2</button>
+    <button onclick="document.getElementById('exp').value+='3'">3</button>
+    <button onclick="document.getElementById('exp').value+='-'">-</button>
+    <br>
+    <button onclick="document.getElementById('exp').value+='0'">0</button>
+    <button onclick="document.getElementById('exp').value+='+'">+</button>
+    <button>NONE</button>
+    <button>NONE</button>
+
+
+</body>
+</html>
