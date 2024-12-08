@@ -31,6 +31,7 @@
 <ul>
     <li>Week 5 연습</li>
     <ul>
+        <li>Practice8-1.html: 교재 문제 8-1</li>
         <li>Practice8-4.html: 교재 문제 8-4 클릭하면 답이 나오는 곱셈 연산</li>
         <li>Practice8-6.html: 교재 문제 8-6 클릭하면 innerHTML로 작성하기</li>
         <li>Practice8-9.html: 교재 문제 8-9 클릭하면 프롬프트로 라면 끓이는 순서 추가</li>
@@ -51,24 +52,32 @@
 <ul>
     <li>Week 7 연습</li>
     <ul>
-        <li>Practice10-5-6.html: 교재 문제 10-5, 10-6 클릭하면 멈추고 재실행되는 시계 만들기 연습</li>
+        <li>Practice10-1.html: 교재 문제 10-1</li>
+        <li>Practice10-2.html: 교재 문제 10-2</li>
+        <li>Practice10-3-1.html: 교재 문제 10-3-1</li>
+        <li>Practice10-5,6.html: 교재 문제 10-5, 10-6 클릭하면 멈추고 재실행되는 시계 만들기 연습</li>
     </ul>
 </ul>
 
 <ul>
     <li>Week 9 연습</li>
     <ul>
-        <li>Practice12-2-retrieve.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 검색</li>
-        <li>Practice12-2-save.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 작성 및 저장</li>
-        <li>Practice12-4-read.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기쓰기 연습</li>
-        <li>Practice12-4-write.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기보기 연습</li>
+        <li>Practice11-2.html: 교재 문제 11-2</li>
+        <li>Practice11-5.html: 교재 문제 11-5</li>
+        <li>Practice12-1.search: 교재 문제 12-1</li>
+        <li>Practice12-1.store: 교재 문제 12-1</li>
+        <li>Practice12-2-view.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 검색</li>
+        <li>Practice12-2-store.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 작성 및 저장</li>
+        <li>Practice12-4-store.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기쓰기 연습</li>
+        <li>Practice12-4-view.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기보기 연습</li>
     </ul>
 </ul>
 
 <ul>
     <li>Week 10 연습</li>
     <ul>
-        <li>Practice13-6.html: 실습문제 13-6 워크 태스크 이용하여 곱셈 계산기 만드는 연습</li>
+        <li>Practice13-5.html: 교재 문제 13-5</li>
+        <li>Practice13-6.html: 교재 문제 13-6 워크 태스크 이용하여 곱셈 계산기 만드는 연습</li>
     </ul>
 </ul>
 
