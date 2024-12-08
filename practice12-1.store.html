@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>첫 번째 페이지</title>
+</head>
+<body>
+    <h1>이름과 학번 입력</h1>
+    <form id="form">
+        <label for="name">이름:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="studentId">학번:</label>
+        <input type="text" id="studentId">
+        <br>
+        <button type="submit">저장</button>
+    </form>
+    <br>
+    <a href="practice12-1.search.html">이름으로 학번 검색 페이지로</a>
+
+    <script>
+        document.getElementById('form').addEventListener('submit',function(event){
+            event.preventDefault();
+            const name=document.getElementById('name').value;
+            const studentId=document.getElementById('studentId').value;
+
+            let data=JSON.parse(sessionStorage.getItem('students'))||[];
+
+            data.push({name,studentId});
+
+            sessionStorage.setItem('students',JSON.stringify(data));
+
+            alert('저장되었습니다.');
+            document.getElementById('name').value='';
+            document.getElementById('studentId').value='';
+        });
+    </script>
+    
+</body>
+</html>

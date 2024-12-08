@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>두 번째 페이지</title>
+</head>
+<body>
+    <h1>이름으로 학번 검색</h1>
+    <label for="searchName">이름:</label>
+    <input type="text" id="searchName">
+    <button id="searchButton">검색</button>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('searchButton').addEventListener('click', function() {
+            const searchName = document.getElementById('searchName').value;
+            const students = JSON.parse(sessionStorage.getItem('students')) || [];
+            const result = students.filter(student => student.name === searchName);
+            
+            if (result.length > 0) {
+                let output = '';
+                result.forEach(student => {
+                    output += `이름: ${student.name}, 학번: ${student.studentId}<br>`;
+                });
+                document.getElementById('result').innerHTML = output;
+            } else {
+                document.getElementById('result').innerHTML = '검색된 학번이 없습니다.';
+            }
+        });
+    </script>
+</body>
+</html>
