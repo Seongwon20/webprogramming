@@ -22,9 +22,9 @@
 </ol>
 
 <ul>
-    <li>Week 4 연습</li>
+    <li>Week 4.html</li>
     <ul>
-        <li>4weekobject-gen.html: 객체 생성 3가지 방법 연습</li>
+        <li>Week4: 객체 생성 3가지 방법 연습</li>
     </ul>
 </ul>
 
