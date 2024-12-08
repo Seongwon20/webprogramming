@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-9</title>
+    <script>
+        function addstep(){
+            let input=prompt("다음 단계를 입력하세요");
+            let li =document.createElement('li');
+            li.innerHTML=input;
+            let ol=document.getElementById('ol');
+            ol.appendChild(li);
+        }
+        
+        
+    </script>
+</head>
+<body>
+    <h3>라면을 끓이는 순서</h3>
+    <hr>
+    <ol id='ol' type="A" style="background-color: yellowgreen" onclick=""addstep();>
+        <li id="A" onclick="changeText()">물을 끓인다.</li>
+        </ol>
+        
+</body>
+</html>
+/*
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function add(){
+        var p=prompt("라면을 끓이는 순서를 입력하라");
+        let liadd=document.createElement("li");
+        document.getElementById("add").appendChild(liadd);
+        liadd.innerHTML=p;
+    }
+</script>
+<body>
+    <h3>라면을 끓이는 순서</h3>
+    <hr>
+    <ol type="A" id="add" onclick="add()" style="background-color: yellowgreen;">
+        <li>물을 끓인다</li>
+    </ol>
+</body>
+</html>*/
