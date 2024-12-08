@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>실습문제 9-2</title>
+    <title>라디오버튼</title>
     <script>
-        function Action(obj){
-            let newimg = document.getElementById('newimg');
-            if (newimg != null){
+        function drawimage(o){
+            let newimg=document.getElementById('newimg');
+            if(newimg!=null){
                 newimg.parentElement.removeChild(newimg);
             }
-            let img = new Image();
-            img.src = obj.value;
-            let par = document.getElementById("parent");
-            par.appendChild(img);
-            img.setAttribute('id', 'newimg');
+            let img=new Image();
+            img.src=o.value;
+            let parent=document.getElementById("parent");
+            parent.appendChild(img);
+            img.setAttribute('id','newimg');
         }
     </script>
 </head>
-<body>
-    <h3>라디오 버튼을 클릭하면 이미지를 출력합니다.</h3>
+<body onload="drawimage()">
+    <h3>라디오 버튼을 클릭하면 이미지를 출력합니다</h3>
     <hr>
-    <form id="parent">
-        <input type="radio" name="fruits" value="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA5MDFfMTI5%2FMDAxNzI1MTY0MjQ5MzA3.F6VjFF-jQsWOwxGH7I-rsT6BZRy8dujS2n2pIQM3CRsg.B_l-ddQ7Skzg0QcKxbEq-whkiIOPZkMYgG26-UiHAP8g.PNG%2F20240901_130942.png&type=a340" onclick="Action(this)">바나나
-        <input type="radio" name="fruits" value="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA4MDdfMTcw%2FMDAxNzIyOTkyOTU0MTMz.rYItGq9qzWTi8VrWYJRTD2IYsnrAx1zFzJll9RZdry4g.NR_Vc5jQFDJx0iZpAxCXruKMPirLF5wVUgqt5EphJGUg.JPEG%2FKakaoTalk_20240807_100725821.jpg&type=a340" onclick="Action(this)">망고
-        <input type="radio" name="fruits" value="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMTFfMTg0%2FMDAxNzA3NjIzMTIyNjk1.KkOL7KS-CeF28QfSMz2rMl6JGtUK5CMNK-q67nrg2hsg.TV5f8Mwj8s-vrCWpoulmBVXHH8hz0WjET-TANWnWwnsg.JPEG.skskalcmfnrl%2F%25BB%25E7%25B0%25FA_%25284%2529.jpg&type=a340" onclick="Action(this)">사과
-        <br><br>
+    <form action="" id="parent">
+        <input type="radio" name="fruit" value="bananaa.jpg" onclick=drawimage(this)>바나나
+        <input type="radio" name="fruit" value="mangoo.jpg" onclick=drawimage(this)>망고
+        <input type="radio" name="fruit" value="applee.jpg" onclick=drawimage(this)>사과
+</select>
+        
     </form>
     
 </body>
