@@ -41,8 +41,8 @@
 <ul>
     <li>Week 6 연습</li>
     <ul>
-        <li>Practice9-2.html: 교재 문제 9-2 라디오 버튼 클릭하면 이미지를 함께 출력</li>
-        <li>Practice9-3.html: 교재 문제 9-3 onkeydown시 입력된 수식 계산</li>
+        <li>Practice9-2.html: 교재 문제 9-2 라디오 버튼 클릭 시 그림 그리기</li>
+        <li>Practice9-3.html: 교재 문제 9-3 Enter 키 입력 시 입력된 수식 계산</li>
         <li>Practice9-6.html: 교재 문제 9-6 마우스 휠에 따라 이미지의 확대/축소</li>
         <li>Practice9-10.html: 교재 문제 9-10 계산기 만들기 연습</li>
     </ul>
@@ -58,10 +58,10 @@
 <ul>
     <li>Week 9 연습</li>
     <ul>
-        <li>Practice12-2-retrieve.html: 교재 문제 12-2 세션 스토리지를 이용하여 구입 리스트 검색</li>
-        <li>Practice12-2-save.html: 교재 문제 12-2 세션 스토리지를 이용하여 구입 리스트 작성 및 저장</li>
-        <li>Practice12-4-read.html: 교재 문제 12-4 로컬 스토리지 이용하여 일기쓰기 연습</li>
-        <li>Practice12-4-write.html: 교재 문제 12-4 로컬 스토리지 이용하여 일기보기 연습</li>
+        <li>Practice12-2-retrieve.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 검색</li>
+        <li>Practice12-2-save.html: 교재 문제 12-2 세션 스토리지를 이용한 구입 리스트 작성 및 저장</li>
+        <li>Practice12-4-read.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기쓰기 연습</li>
+        <li>Practice12-4-write.html: 교재 문제 12-4 로컬 스토리지를 이용한 일기보기 연습</li>
     </ul>
 </ul>
 
