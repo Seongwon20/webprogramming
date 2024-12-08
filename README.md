@@ -42,6 +42,9 @@
 <ul>
     <li>Week 6 연습</li>
     <ul>
+        <li>ex9-10calculate.html: 교재 예제 9-10 따라해보기</li>
+        <li>ex9-17radio.html: 교재 예제 9-17 따라해보기</li>
+        <li>ex9-19.htmll: 교재 예제 select 객체에서 선택한 과일출력 따라해보기</li>
         <li>Practice9-2.html: 교재 문제 9-2 라디오 버튼 클릭 시 그림 그리기</li>
         <li>Practice9-3.html: 교재 문제 9-3 Enter 키 입력 시 입력된 수식 계산</li>
         <li>Practice9-6.html: 교재 문제 9-6 마우스 휠에 따라 이미지의 확대/축소</li>
@@ -96,8 +99,12 @@
     </ul>
 </ul>
 <ul>
-    <li>각종 Practice 문제들</li>
+    <li>기타</li>
     <ul>
         <li>교재 문제 연습 풀이 내용들</li>
+        <li>dg.js</li>
+        <li>event1.js</li>
+        <li>gop.js</li>
+        <li>timer.js</li>
     </ul>
 </ul>
